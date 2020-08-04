@@ -1,0 +1,64 @@
+You are given with array, with positive integers and a integer 
+you can split the array into V non-empty continuous subarrays. 
+Write an algorithm to minimize the largest sum among these V subarrays.
+Constraint: 1< size of array <1000
+
+Input description:
+N the size of the array
+list of positive integers and in next line an integer V
+
+Output description:
+minimize the largest sum among these V subarrays
+
+Sample Input:
+5
+12 4 5 13 1
+2
+
+Sample Output:
+19
+
+Explanation:
+the  V split arrays are (12,4), (5,13,1),(12,4,5) and (13,1)
+among that (5,13,1) has largest sum among these V subarrays
+so the answer is 19
+
+Sample Input:
+4
+15 16 22 33
+2
+
+Sample Output:
+53
+
+Sample Input:
+7
+12 45 33 52 12 14 45
+4
+
+Sample Output:
+64
+
+Sample Input:
+6
+33 2 14 56 34 99
+5
+
+Sample Output:
+99
+
+Samlpe Input:
+8
+33 45 67 18 34 101 99 77
+3
+
+Sample Output:
+176
+
+Sample Input:
+3
+1 2 3
+1
+
+Sample Output:
+6
